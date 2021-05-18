@@ -1,0 +1,57 @@
+.cd-navigation li {
+	margin: 5px 0 15px 0;
+	width: 7%;
+	border-radius: 0.25em;
+	padding: 0.5em;
+	cursor: pointer;
+
+	&:nth-child(1) {
+		background: $color-1;
+	}
+	&:nth-child(2) {
+		background: $color-2;
+	}
+	&:nth-child(3) {
+		border: 2px double $color-4;
+	}
+	&:nth-child(4) {
+		border-bottom: 2px double $color-4;
+		border-right: 2px double $color-4;
+		box-shadow: 5px 5px 5px $color-2;
+	}
+	&:nth-child(5) {
+		border-bottom: 2px double $color-3;
+		color: $color-3;
+	}
+
+	&:focus {
+		background-color: $accent-pop;
+	}
+
+	&:hover {
+		background-color: $nature;
+	}
+
+	@include MQ(S) {
+		font-size: 1.6rem;
+	}
+}
+
+.cd-navigation li a {
+	text-align: center;
+	padding: 0.6em 1em;
+	color: $color-5;
+	margin: auto;
+	font: {
+		size: 1.4rem;
+		family: $primary-font;
+	}
+}
+.cd-navigation li a.dark {
+	color: $color-2;
+}
+
+// .cd-navigation li:nth-of-type(2) span {
+// 	/* CSS class name color */
+// 	color: $color-1;
+// }
