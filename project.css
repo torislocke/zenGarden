@@ -29,13 +29,13 @@ ul li {
 }
 
 p {
-    font-family: 'pt-sans', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    margin: 15px;
-    margin-right: 25px;
-    text-align: justify;
+	font-family: pt-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	margin: 15px;
+	margin-right: 25px;
+	text-align: justify;
 }
 
 h3 {
@@ -62,11 +62,11 @@ header {
 
 header h1,
 header h2 {
-font-family: 'adobe-kannada', sans-serif;
-font-weight: 700;
-font-style: italic;
-position: absolute;
-color: white;
+	font-family: 'adobe-kannada', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	position: absolute;
+	color: white;
 }
 
 header h1 {
@@ -78,8 +78,6 @@ header h1 {
 header h2 {
 	top: 79%;
 	left: 7%;
-	font-size: 20px;
-	font-style: italic;
 }
 
 header h2 abbr {
@@ -202,7 +200,7 @@ header h2 abbr {
 
 	.wrapper {
 		z-index: 10;
-		margin-top: -470px;
+		margin-top: -570px;
 		margin-left: 400px;
 	}
 }
@@ -220,8 +218,6 @@ header h2 abbr {
 	}
 
 	header h2 {
-		font-size: 22px;
-		top: 82%;
 		left: 70%;
 	}
 
@@ -248,3 +244,4 @@ header h2 abbr {
 		margin-top: 0;
 	}
 }
+
